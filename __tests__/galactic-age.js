@@ -91,5 +91,10 @@ describe("ageCount", () => {
     userAge.surpassedYearsMercury();
     expect(userAge.mercurySurpassedYears).toEqual(21);
   });
+
+  test('return the number of surpassed years on Venus', () => {
+    userAge.surpassedYearsVenus();
+    expect(userAge.venusSurpassedYears).toEqual(8);
+  });
   
 })
