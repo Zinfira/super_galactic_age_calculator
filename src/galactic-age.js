@@ -19,20 +19,10 @@ export class ageCount {
     this.jupiterAge = parseFloat((this.age / 11.86).toFixed(2));
   }
 
-  lifeExpectMercury() {
+  lifeExpectancyOnPlanets() {
     this.mercuryExpectancy = parseFloat((this.expectLifeAge / 0.24).toFixed(2));
-  }
-
-  lifeExpectVenus() {
     this.venusExpectancy = parseFloat((this.expectLifeAge / 0.62).toFixed(2));
-  }
-
-  lifeExpectMars() {
     this.marsExpectancy = parseFloat((this.expectLifeAge / 1.88).toFixed(2));
+    this.jupiterExpectancy = parseFloat((this.expectLifeAge / 11.86).toFixed(2));
   }
-
-  lifeExpectJupiter() {
-    
-  }
-
 }

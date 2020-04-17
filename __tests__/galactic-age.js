@@ -35,22 +35,22 @@ describe("ageCount", () => {
   });
 
   test('should determine life expectancy years on Mercury', () => {
-    userAge.lifeExpectMercury();
+    userAge.lifeExpectancyOnPlanets();
     expect(userAge.mercuryExpectancy).toBe(354.17);
   });
 
   test ('should determine life expectancy years on Venus', () => {
-    userAge.lifeExpectVenus();
+    userAge.lifeExpectancyOnPlanets();
     expect(userAge.venusExpectancy).toBe(137.1);
   });
 
   test('should determine life expectancy years on Mars', () => {
-    userAge.lifeExpectMars();
+    userAge.lifeExpectancyOnPlanets();
     expect(userAge.marsExpectancy).toBe(45.21);
   });
 
   test('should determine life expectancy years on Jupiter', () => {
-    userAge.lifeExpectJupiter();
+    userAge.lifeExpectancyOnPlanets();
     expect(userAge.jupiterExpectancy).toBe(7.17);
   });
   
