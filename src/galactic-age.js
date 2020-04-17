@@ -17,6 +17,6 @@ export class ageCount {
   }
 
   lifeExpectMercury() {
-    
+    this.mercuryExpectancy = parseFloat((this.expectLifeAge / 0.24).toFixed(2));
   }
 }
