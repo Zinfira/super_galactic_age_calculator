@@ -61,7 +61,7 @@ describe("ageCount", () => {
 
   test ('should determine left years on Mercury', () => {
     userAge.yearsLeftMercury();
-    expect(userAge.mercuryYearsLeft).toEqual(97);
+    expect(userAge.mercuryYearsLeft).toEqual(250);
   })
   
 })

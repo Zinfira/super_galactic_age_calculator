@@ -33,6 +33,6 @@ export class ageCount {
   }
 
   yearsLeftMercury() {
-    
+    this.mercuryYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 0.24).toFixed(0));
   }
 }
