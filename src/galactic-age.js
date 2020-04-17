@@ -48,6 +48,6 @@ export class ageCount {
   }
 
   yearsLeftJupiter() {
-    
+    this.jupiterYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 11.86).toFixed(0));
   }
 }
