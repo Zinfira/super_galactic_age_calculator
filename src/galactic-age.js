@@ -49,6 +49,6 @@ export class ageCount {
   }
 
   surpassedYearsMercury() {
-    
+    this.mercurySurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 0.24).toFixed(0));
   }
 }
