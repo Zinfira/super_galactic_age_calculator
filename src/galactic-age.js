@@ -12,4 +12,8 @@ export class ageCount {
   determineVenusAge() {
     this.venusAge = parseFloat((this.age / 0.62).toFixed(2));
   }
+
+  determineMarsAge() {
+    
+  }
 }
