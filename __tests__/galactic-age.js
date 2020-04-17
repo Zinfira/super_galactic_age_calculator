@@ -67,6 +67,6 @@ describe("ageCount", () => {
   test ('should determine left years on Venus', () => {
     userAge.yearsLeftVenus();
     expect(userAge.venusYearsLeft).toEqual(97);
-  })
+  });
   
 })
