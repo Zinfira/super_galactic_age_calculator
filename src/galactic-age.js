@@ -38,6 +38,6 @@ export class ageCount {
   }
 
   yearsLeftVenus() {
-
+    this.venusYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 0.62).toFixed(0));
   }
 }
