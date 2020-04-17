@@ -17,6 +17,7 @@ export class ageCount {
     this.marsYearsLeft = 0;
     this.jupiterYearsLeft = 0;
     this.earthSurpassedYears = 0;
+    this.mercurySurpassedYears = 0;
   }
 
   ageOnPlanets() {
@@ -45,5 +46,9 @@ export class ageCount {
 
   surpassedYearsEarth() {
     this.earthSurpassedYears = this.surpassedAge - this.expectLifeAge;
+  }
+
+  surpassedYearsMercury() {
+    
   }
 }
