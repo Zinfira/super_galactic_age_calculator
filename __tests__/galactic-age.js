@@ -11,22 +11,22 @@ describe("ageCount", () => {
   });
 
   test('should determine age on Mercury years', () => {
-    userAge.determineAgeOnMercury();
+    userAge.ageOnPlanets();
     expect(userAge.mercuryAge).toBe(104.17);
   });
 
   test('should determine age on Venus years', () => {
-    userAge.determineVenusAge();
+    userAge.ageOnPlanets();
     expect(userAge.venusAge).toBe(40.32);
   });
 
   test('should determine age on Mars years', () => {
-    userAge.determineMarsAge();
+    userAge.ageOnPlanets();
     expect(userAge.marsAge).toBe(13.3);
   });
 
   test('should determine age on Jupiter years', () => {
-    userAge.determineJupiterAge();
+    userAge.ageOnPlanets();
     expect(userAge.jupiterAge).toBe(2.11);
   });
   

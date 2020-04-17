@@ -7,19 +7,10 @@ export class ageCount {
     this.jupiterAge = 0;
   }
 
-  determineAgeOnMercury() {
+  ageOnPlanets () {
     this.mercuryAge = parseFloat((this.age / 0.24).toFixed(2));
-  }
-
-  determineVenusAge() {
     this.venusAge = parseFloat((this.age / 0.62).toFixed(2));
-  }
-
-  determineMarsAge() {
     this.marsAge = parseFloat((this.age / 1.88).toFixed(2));
-  }
-
-  determineJupiterAge() {
     this.jupiterAge = parseFloat((this.age / 11.86).toFixed(2));
   }
 }
