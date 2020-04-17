@@ -29,5 +29,9 @@ describe("ageCount", () => {
     userAge.ageOnPlanets();
     expect(userAge.jupiterAge).toBe(2.11);
   });
+
+  test('should return number of life expectancy in Earth years', () => {
+    expect(userAge.expectLifeAge).toEqual(85);
+  });
   
 })
