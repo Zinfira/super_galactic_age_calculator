@@ -5,6 +5,6 @@ export class ageCount {
   }
 
   determineAgeOnMercury() {
-    this.mercuryAge += (this.age / 0.24);
+    this.mercuryAge = parseFloat((this.age / 0.24).toFixed(2));
   }
 }
