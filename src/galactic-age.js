@@ -59,6 +59,6 @@ export class ageCount {
   }
 
   surpassedYearsMars() {
-    
+    this.marsSurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 1.88).toFixed(0));
   }
 }
