@@ -27,7 +27,11 @@ _This pfoject currently does not have a user interface, only business logic and 
 | Determine how many years a user has left to live on Venus | 25 Earth years | 97 Venus years |
 | Determine how many years a user has left to live on Mars | 25 Earth years | 32 Mars years |
 | Determine how many years a user has left to live on Jupiter | 25 Earth years | 5 Jupiter years |
-
+| Determine years surpassed life expectancy on Earth | 90 Earth years | 5 Earth years | 
+| Determine years surpassed life expectancy on Mercury | 90 Earth years | 21 Mercury years |
+| Determine years surpassed life expectancy on Venus | 90 Earth years | 8 Venus years | 
+| Determine years surpassed life expectancy on Mars | 90 Earth years | 3 Mars years | 
+| Determine years surpassed life expectancy on Jupiter | 90 Earth years | 0.4 Jupiter years | 
 
 ## Setup/Installation Requirements
 
