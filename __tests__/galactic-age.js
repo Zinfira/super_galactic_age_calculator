@@ -24,5 +24,10 @@ describe("ageCount", () => {
     userAge.determineMarsAge();
     expect(userAge.marsAge).toBe(13.3);
   });
+
+  test('should determine age on Jupiter years', () => {
+    userAge.determineJupiterAge();
+    expect(userAge.jupiterAge).toBe(2.11);
+  });
   
 })
