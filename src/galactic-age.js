@@ -43,6 +43,6 @@ export class ageCount {
   }
 
   yearsLeftMars() {
-
+    this.marsYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 1.88).toFixed(0));
   }
 }
