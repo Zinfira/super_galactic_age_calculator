@@ -25,4 +25,8 @@ export class ageCount {
     this.marsExpectancy = parseFloat((this.expectLifeAge / 1.88).toFixed(0));
     this.jupiterExpectancy = parseFloat((this.expectLifeAge / 11.86).toFixed(0));
   }
+
+  yearsLeftEarth() {
+    
+  }
 }
