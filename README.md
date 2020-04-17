@@ -17,6 +17,11 @@ _This pfoject currently does not have a user interface, only business logic and 
 | Program determines user's age in Venus years | 25 Earth years | 40.32 Venus years |
 | Program determines user's age in Mars years | 25 Earth years | 13.3 Mars years |
 | Program determines user's age in Jupiter years | 25 Earth years | 2.11 Jupiter years |
+| Users enter their average life expectancy | 85 Earth years | 85 Earth years |
+| Program determines user's average life expectancy in Mercury years | 85 Earth years | 354.17 Mercury years |
+| Program determines user's average life expectancy in Venus years | 85 Earth years | 137.1 Venus years |
+| Program determines user's average life expectancy in Mars years | 85 Earth years | 45.21 Mars years |
+| Program determines user's average life expectancy in Jupiter years | 85 Earth years | 7.17 Jupiter years | 
 
 ## Setup/Installation Requirements
 
