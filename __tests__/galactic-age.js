@@ -1,8 +1,12 @@
 import { ageCount } from './../src/galactic-age.js';
 
 describe("ageCount", () => {
+  let userAge;
+  beforeEach(() => {
+    userAge = new ageCount(25);
+  });
 
   test('should return number of Earth years', () => {
-    expect.ageCount(25).toEqual(25);
+    expect(userAge.age).toEqual(25);
   });
 })
