@@ -13,15 +13,21 @@ _This pfoject currently does not have a user interface, only business logic and 
 | Specification | Example Input | Example Output |
 |---------------|---------------|----------------|
 | Users enter their age | 25 Earth years| 25 Earth years| 
-| Program determines user's age in Mercury years | 25 Earth years | 104.17 Mercury years|
-| Program determines user's age in Venus years | 25 Earth years | 40.32 Venus years |
-| Program determines user's age in Mars years | 25 Earth years | 13.3 Mars years |
-| Program determines user's age in Jupiter years | 25 Earth years | 2.11 Jupiter years |
+| Program determines user's age in Mercury years | 25 Earth years | 104 Mercury years|
+| Program determines user's age in Venus years | 25 Earth years | 40 Venus years |
+| Program determines user's age in Mars years | 25 Earth years | 13 Mars years |
+| Program determines user's age in Jupiter years | 25 Earth years | 2 Jupiter years |
 | Users enter their average life expectancy | 85 Earth years | 85 Earth years |
-| Program determines user's average life expectancy in Mercury years | 85 Earth years | 354.17 Mercury years |
-| Program determines user's average life expectancy in Venus years | 85 Earth years | 137.1 Venus years |
-| Program determines user's average life expectancy in Mars years | 85 Earth years | 45.21 Mars years |
-| Program determines user's average life expectancy in Jupiter years | 85 Earth years | 7.17 Jupiter years | 
+| Program determines user's average life expectancy in Mercury years | 85 Earth years | 354 Mercury years |
+| Program determines user's average life expectancy in Venus years | 85 Earth years | 137 Venus years |
+| Program determines user's average life expectancy in Mars years | 85 Earth years | 45 Mars years |
+| Program determines user's average life expectancy in Jupiter years | 85 Earth years | 7 Jupiter years |
+| Determine how many years a user has left to live on Earth | 25 Earth years | 60 Earth years | 
+| Determine how many years a user has left to live on Mercury | 25 Earth years | 250 Mercury years |
+| Determine how many years a user has left to live on Venus | 25 Earth years | 97 Venus years |
+| Determine how many years a user has left to live on Mars | 25 Earth years | 32 Mars years |
+| Determine how many years a user has left to live on Jupiter | 25 Earth years | 5 Jupiter years |
+
 
 ## Setup/Installation Requirements
 
