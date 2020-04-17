@@ -1,7 +1,8 @@
 export class ageCount {
-  constructor(age, expectLifeAge) {
+  constructor(age, expectLifeAge, surpassedAge) {
     this.age = age;
     this.expectLifeAge = expectLifeAge;
+    this.surpassedAge = surpassedAge;
     this.mercuryAge = 0;
     this.venusAge = 0;
     this.marsAge = 0;
@@ -15,6 +16,7 @@ export class ageCount {
     this.venusYearsLeft = 0;
     this.marsYearsLeft = 0;
     this.jupiterYearsLeft = 0;
+    this.earthSurpassedYears = 0;
   }
 
   ageOnPlanets() {
@@ -39,5 +41,9 @@ export class ageCount {
       this.marsYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 1.88).toFixed(0));
       this.jupiterYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 11.86).toFixed(0));
     }
+  }
+
+  surpassedYearsEarth() {
+    
   }
 }

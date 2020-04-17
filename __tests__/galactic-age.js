@@ -3,7 +3,7 @@ import { ageCount } from './../src/galactic-age.js';
 describe("ageCount", () => {
   let userAge;
   beforeEach(() => {
-    userAge = new ageCount(25,85);
+    userAge = new ageCount(25,85, 90);
   });
 
   test('should return number of Earth years', () => {
@@ -79,6 +79,12 @@ describe("ageCount", () => {
   test ('should determine left years on Jupiter', () => {
     userAge.yearsLeftOnPlanets();
     expect(userAge.jupiterYearsLeft).toEqual(5);
+  });
+
+
+  test('should return the number of years users have lived past the life expectancy', () => {
+    userAge.surpassedYearsEarth();
+    expect(userAge.earthSurpassedYears).toEqual(5);
   });
   
 })
