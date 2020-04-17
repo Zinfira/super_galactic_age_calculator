@@ -64,6 +64,6 @@ export class ageCount {
   }
 
   surpassedYearsJupiter() {
-
+    this.jupiterSurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 11.86).toFixed(1));
   }
 }
