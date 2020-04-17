@@ -22,6 +22,6 @@ export class ageCount {
   }
 
   lifeExpectVenus() {
-    
+    this.venusExpectancy = parseFloat((this.expectLifeAge / 0.62).toFixed(2));
   }
 }
