@@ -86,5 +86,10 @@ describe("ageCount", () => {
     userAge.surpassedYearsEarth();
     expect(userAge.earthSurpassedYears).toEqual(5);
   });
+
+  test('should return the number of years on Mercury users have lived past the life expectancy', () => {
+    userAge.surpassedYearsMercury();
+    expect(userAge.mercurySurpassedYears).toEqual(21);
+  });
   
 })
