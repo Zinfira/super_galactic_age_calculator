@@ -1,6 +1,7 @@
 export class ageCount {
-  constructor(age) {
+  constructor(age, expectLifeAge) {
     this.age = age;
+    this.expectLifeAge = expectLifeAge;
     this.mercuryAge = 0;
     this.venusAge = 0;
     this.marsAge = 0;

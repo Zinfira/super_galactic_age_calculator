@@ -3,7 +3,7 @@ import { ageCount } from './../src/galactic-age.js';
 describe("ageCount", () => {
   let userAge;
   beforeEach(() => {
-    userAge = new ageCount(25);
+    userAge = new ageCount(25,85);
   });
 
   test('should return number of Earth years', () => {
