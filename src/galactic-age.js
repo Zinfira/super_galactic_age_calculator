@@ -13,16 +13,16 @@ export class ageCount {
   }
 
   ageOnPlanets() {
-    this.mercuryAge = parseFloat((this.age / 0.24).toFixed(2));
-    this.venusAge = parseFloat((this.age / 0.62).toFixed(2));
-    this.marsAge = parseFloat((this.age / 1.88).toFixed(2));
-    this.jupiterAge = parseFloat((this.age / 11.86).toFixed(2));
+    this.mercuryAge = parseFloat((this.age / 0.24).toFixed(0));
+    this.venusAge = parseFloat((this.age / 0.62).toFixed(0));
+    this.marsAge = parseFloat((this.age / 1.88).toFixed(0));
+    this.jupiterAge = parseFloat((this.age / 11.86).toFixed(0));
   }
 
   lifeExpectancyOnPlanets() {
-    this.mercuryExpectancy = parseFloat((this.expectLifeAge / 0.24).toFixed(2));
-    this.venusExpectancy = parseFloat((this.expectLifeAge / 0.62).toFixed(2));
-    this.marsExpectancy = parseFloat((this.expectLifeAge / 1.88).toFixed(2));
-    this.jupiterExpectancy = parseFloat((this.expectLifeAge / 11.86).toFixed(2));
+    this.mercuryExpectancy = parseFloat((this.expectLifeAge / 0.24).toFixed(0));
+    this.venusExpectancy = parseFloat((this.expectLifeAge / 0.62).toFixed(0));
+    this.marsExpectancy = parseFloat((this.expectLifeAge / 1.88).toFixed(0));
+    this.jupiterExpectancy = parseFloat((this.expectLifeAge / 11.86).toFixed(0));
   }
 }
