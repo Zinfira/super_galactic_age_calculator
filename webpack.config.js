@@ -19,7 +19,7 @@ plugins: [
   new CleanWebpackPlugin(),
   new Dotenv(),
   new HtmlWebpackPlugin({
-    title: 'Super Galactic Age Calculator',
+    title: 'Super Galactic Age',
     template: './src/index.html',
     inject: 'body'
   })

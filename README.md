@@ -9,6 +9,15 @@
 _This project lets users enter their age in Earth years, and it will determine a users’ age based on a planet’s solar years._
 _This pfoject currently does not have a user interface, only business logic and tests._
 
+## Specifications:
+| Specification | Example Input | Example Output |
+|---------------|---------------|----------------|
+| Users enter their age | 25 Earth years| 25 Earth years| 
+| Program determines user's age in Mercury years | 25 Earth years | 104.17 Mercury years|
+| Program determines user's age in Venus years | 25 Earth years | 40.32 Venus years |
+| Program determines user's age in Mars years | 25 Earth years | 13.3 Mars years |
+| Program determines user's age in Jupiter years | 25 Earth years | 2.11 Jupiter years |
+
 ## Setup/Installation Requirements
 
 Clone this repository via Terminal using the following commands:
