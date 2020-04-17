@@ -47,6 +47,11 @@ describe("ageCount", () => {
   test('should determine life expectancy years on Mars', () => {
     userAge.lifeExpectMars();
     expect(userAge.marsExpectancy).toBe(45.21);
-  })
+  });
+
+  test('should determine life expectancy years on Jupiter', () => {
+    userAge.lifeExpectJupiter();
+    expect(userAge.jupiterExpectancy).toBe(7.17);
+  });
   
 })
