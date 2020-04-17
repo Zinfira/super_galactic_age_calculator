@@ -9,6 +9,7 @@ export class ageCount {
     this.mercuryExpectancy = 0;
     this.venusExpectancy = 0;
     this.marsExpectancy = 0;
+    this.jupiterExpectancy = 0;
   }
 
   ageOnPlanets() {
@@ -29,4 +30,9 @@ export class ageCount {
   lifeExpectMars() {
     this.marsExpectancy = parseFloat((this.expectLifeAge / 1.88).toFixed(2));
   }
+
+  lifeExpectJupiter() {
+    
+  }
+
 }
