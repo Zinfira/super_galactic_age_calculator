@@ -54,6 +54,6 @@ export class ageCount {
   }
 
   surpassedYearsVenus() {
-    
+    this.venusSurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 0.62).toFixed(0));
   }
 }
