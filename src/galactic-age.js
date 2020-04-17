@@ -14,6 +14,7 @@ export class ageCount {
     this.mercuryYearsLeft = 0;
     this.venusYearsLeft = 0;
     this.marsYearsLeft = 0;
+    this.jupiterYearsLeft = 0;
   }
 
   ageOnPlanets() {
@@ -44,5 +45,9 @@ export class ageCount {
 
   yearsLeftMars() {
     this.marsYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 1.88).toFixed(0));
+  }
+
+  yearsLeftJupiter() {
+    
   }
 }

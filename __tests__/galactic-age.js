@@ -73,5 +73,10 @@ describe("ageCount", () => {
     userAge.yearsLeftMars();
     expect(userAge.marsYearsLeft).toEqual(32);
   });
+
+  test ('should determine left years on Jupiter', () => {
+    userAge.yearsLeftJupiter();
+    expect(userAge.jupiterYearsLeft).toEqual(5);
+  });
   
 })
