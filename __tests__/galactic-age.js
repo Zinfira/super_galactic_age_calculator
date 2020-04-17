@@ -54,9 +54,9 @@ describe("ageCount", () => {
     expect(userAge.jupiterExpectancy).toBe(7);
   });
 
-  test ('should determine Determine how many years a user has left to live on Earth', () => {
+  test ('should determine how many years a user has left to live on Earth', () => {
     userAge.yearsLeftEarth();
-    expect(userAge.earthLeft).toEqual(60);
+    expect(userAge.earthYearsLeft).toEqual(60);
   })
   
 })
