@@ -38,5 +38,10 @@ describe("ageCount", () => {
     userAge.lifeExpectMercury();
     expect(userAge.mercuryExpectancy).toBe(354.17);
   });
+
+  test ('should determine life expectancy years on Venus', () => {
+    userAge.lifeExpectVenus();
+    expect(userAge.venusExpectancy).toBe(137.1);
+  });
   
 })
