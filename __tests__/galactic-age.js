@@ -9,4 +9,9 @@ describe("ageCount", () => {
   test('should return number of Earth years', () => {
     expect(userAge.age).toEqual(25);
   });
+
+  test('should determine age on Mercury years', () => {
+    userAge.determineAgeOnMercury();
+    expect(userAge.mercuryAge).toBe(104.17);
+  });
 })
