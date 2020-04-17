@@ -30,6 +30,7 @@ describe("ageCount", () => {
     expect(userAge.jupiterAge).toBe(2);
   });
 
+
   test('should return number of life expectancy in Earth years', () => {
     expect(userAge.expectLifeAge).toEqual(85);
   });
@@ -54,28 +55,29 @@ describe("ageCount", () => {
     expect(userAge.jupiterExpectancy).toBe(7);
   });
 
+
   test ('should determine how many years a user has left to live on Earth', () => {
-    userAge.yearsLeftEarth();
+    userAge.yearsLeftOnPlanets();
     expect(userAge.earthYearsLeft).toEqual(60);
   });
 
   test ('should determine left years on Mercury', () => {
-    userAge.yearsLeftMercury();
+    userAge.yearsLeftOnPlanets();
     expect(userAge.mercuryYearsLeft).toEqual(250);
   });
 
   test ('should determine left years on Venus', () => {
-    userAge.yearsLeftVenus();
+    userAge.yearsLeftOnPlanets();
     expect(userAge.venusYearsLeft).toEqual(97);
   });
 
   test ('should determine left years on Mars', () => {
-    userAge.yearsLeftMars();
+    userAge.yearsLeftOnPlanets();
     expect(userAge.marsYearsLeft).toEqual(32);
   });
 
   test ('should determine left years on Jupiter', () => {
-    userAge.yearsLeftJupiter();
+    userAge.yearsLeftOnPlanets();
     expect(userAge.jupiterYearsLeft).toEqual(5);
   });
   

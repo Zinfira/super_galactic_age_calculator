@@ -31,23 +31,13 @@ export class ageCount {
     this.jupiterExpectancy = parseFloat((this.expectLifeAge / 11.86).toFixed(0));
   }
 
-  yearsLeftEarth() {
-    this.earthYearsLeft = this.expectLifeAge - this.age;
-  }
-
-  yearsLeftMercury() {
-    this.mercuryYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 0.24).toFixed(0));
-  }
-
-  yearsLeftVenus() {
-    this.venusYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 0.62).toFixed(0));
-  }
-
-  yearsLeftMars() {
-    this.marsYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 1.88).toFixed(0));
-  }
-
-  yearsLeftJupiter() {
-    this.jupiterYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 11.86).toFixed(0));
+  yearsLeftOnPlanets() {
+    if (this.age < this.expectLifeAge) {
+      this.earthYearsLeft = this.expectLifeAge - this.age;
+      this.mercuryYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 0.24).toFixed(0));
+      this.venusYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 0.62).toFixed(0));
+      this.marsYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 1.88).toFixed(0));
+      this.jupiterYearsLeft = parseFloat(((this.expectLifeAge - this.age) / 11.86).toFixed(0));
+    }
   }
 }
