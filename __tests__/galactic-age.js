@@ -83,27 +83,27 @@ describe("ageCount", () => {
 
 
   test('should return the number of years users have lived past the life expectancy', () => {
-    userAge.surpassedYearsEarth();
+    userAge.surpassedYearsOnPlanets();
     expect(userAge.earthSurpassedYears).toEqual(5);
   });
 
   test('should return the number of years on Mercury users have lived past the life expectancy', () => {
-    userAge.surpassedYearsMercury();
+    userAge.surpassedYearsOnPlanets();
     expect(userAge.mercurySurpassedYears).toEqual(21);
   });
 
   test('return the number of surpassed years on Venus', () => {
-    userAge.surpassedYearsVenus();
+    userAge.surpassedYearsOnPlanets();
     expect(userAge.venusSurpassedYears).toEqual(8);
   });
 
   test('return the number of surpassed years on Mars', () => {
-    userAge.surpassedYearsMars();
+    userAge.surpassedYearsOnPlanets();
     expect(userAge.marsSurpassedYears).toEqual(3);
   });
 
   test('return the number of surpassed years on Jupiter', () => {
-    userAge.surpassedYearsJupiter();
+    userAge.surpassedYearsOnPlanets();
     expect(userAge.jupiterSurpassedYears).toEqual(0.4);
   });
   

@@ -47,23 +47,11 @@ export class ageCount {
     }
   }
 
-  surpassedYearsEarth() {
+  surpassedYearsOnPlanets() {
     this.earthSurpassedYears = this.surpassedAge - this.expectLifeAge;
-  }
-
-  surpassedYearsMercury() {
     this.mercurySurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 0.24).toFixed(0));
-  }
-
-  surpassedYearsVenus() {
     this.venusSurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 0.62).toFixed(0));
-  }
-
-  surpassedYearsMars() {
     this.marsSurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 1.88).toFixed(0));
-  }
-
-  surpassedYearsJupiter() {
     this.jupiterSurpassedYears = parseFloat(((this.surpassedAge - this.expectLifeAge) / 11.86).toFixed(1));
   }
 }
