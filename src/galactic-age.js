@@ -44,6 +44,6 @@ export class ageCount {
   }
 
   surpassedYearsEarth() {
-    
+    this.earthSurpassedYears = this.surpassedAge - this.expectLifeAge;
   }
 }
